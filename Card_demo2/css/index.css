@@ -1,0 +1,43 @@
+.card{
+  background-image: url("https://drscdn.500px.org/photo/249632469/q%3D80_m%3D1000_k%3D1/v2?sig=cab1578b84b80395b8d1b999e74261548d33e85118e9a979eb6ee53ce8c38c0a");
+  background-size: cover;
+  position: relative;
+  margin: auto;
+  width: 400px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.card__content{
+  width: 350px;
+  height: 170px;
+  background-color: white;
+  position: absolute;
+  bottom: -55px;
+  left: 26px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.rating__star{
+  display: inline-block;
+  height: 30px;
+  width: 90px;
+  background-image: url("../img/star_rate-24px.svg");
+}
+
+.rating__hollow__star{
+  display: inline-block;
+  height: 30px;
+  width: 60px;
+  background-image: url("../img/star-hollow.svg");
+}
+
+.card__location{
+
+}
+
+.card__price{
+
+}
